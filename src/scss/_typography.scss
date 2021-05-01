@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;400;700&display=swap');
+
+@mixin jostThin {
+  font-family: 'Jost', sans-serif;
+  font-weight: 100;
+}
+@mixin jostRegular {
+  font-family: 'Jost', sans-serif;
+  font-weight: 400;
+}
+@mixin jostBold {
+  font-family: 'Jost', sans-serif;
+  font-weight: 700;
+}

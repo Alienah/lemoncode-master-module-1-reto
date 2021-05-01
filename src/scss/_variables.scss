@@ -1,0 +1,41 @@
+// Colors
+
+$darkBackgroundColor: #141414;
+$darkInvertColor: #ffffff;
+$darkActiveColor: #222;
+$lightBackgroundColor: #ffffff;
+$lightInvertColor: #7860fc;
+$lightGrey: #cdcecc;
+
+// Sizes
+
+$size1: 4px;
+$size2: 8px;
+$size3: 12px;
+$size4: 16px;
+$size5: 20px;
+$size6: 24px;
+$size7: 32px;
+$size8: 48px;
+$size9: 64px;
+$size10: 80px;
+
+$layoutPadding: $size4;
+$gridGap: $size4;
+$topImgMinWidth: 225px;
+$sectionImgMinWidth: 250px;
+
+//Breakpoints
+
+$breakpoint1: 601px;
+$breakpoint2: 821px;
+$breakpoint3: 1025px;
+$breakpoint4: 1281px;
+
+$minWidthForFiveTopImages: (5 * $topImgMinWidth) + ($layoutPadding *2) + ($gridGap * 5);
+$minWidthForFourSectionImages: (4 * $sectionImgMinWidth) + ($layoutPadding *2) + ($gridGap * 5);
+
+//Shadows
+$boxShadowLight: 0px 0px 5px 0px rgb(255 255 255 / 20%);
+
+$borderLine: 8px solid $darkActiveColor;
